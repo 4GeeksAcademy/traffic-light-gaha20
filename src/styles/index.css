@@ -1,29 +1,47 @@
+.container{
+    display: grid;
+    place-items: center;
+}
+
 .traffic-light {
-    width:10vw ;
-    height:30vh;
-    border-radius:10%;
+    width: 100px;
+    height: 200px;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    background-color: #2c3e50;
+    padding: 10px;
 }
-
-.red-light{
-border-radius:50%;
-height:8vh;
-width:5vw;
+.light-bulb{
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(0, 0,0,0.3);
+    position: relative;
 }
-
-.yellow-light{
-border-radius:50%;
-height:8vh;
-width:5vw;    
+/*.light-bulb::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-right: 4px solid rgb(255, 255,255,0.6);
+    top: 5%;
+}*/
+.stick{
+    width: 8px;
+    height: 280px;
+    background-color: rgb(0, 0,0,0.5);
 }
-
-.green-light{
-border-radius:50%;
-height:8vh;
-width:5vw;    
+.floor{
+    width: 300px;
+    height: 1px;
+    background-color: rgb(0, 0,0,0.5);
 }
-
 .shadows{
     box-shadow:10px 10px 30px 30px white;
+    border-top: 8px solid rgb(255, 255,255,0.6);
 }
 /* 
 

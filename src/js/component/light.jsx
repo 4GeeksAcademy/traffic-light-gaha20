@@ -9,7 +9,7 @@ const Light = () => {
     return(
         <div className="traffic-light bg-dark container flex-direction-column">
             
-            <div className={`red-light bg-danger ${
+            <div className={`light-bulb bg-danger ${
                 color=="red" ? "shadows" : ""  
             }`} onClick={(event)=>{
                 console.log("Red")
@@ -21,7 +21,7 @@ const Light = () => {
                 })
             }}>
             </div>
-            <div className={`yellow-light bg-warning ${
+            <div className={`light-bulb bg-warning ${
                 color=="yellow" ? "shadows" : ""  
             }`} onClick={(event)=>{
                 console.log("Yellow")
@@ -33,7 +33,7 @@ const Light = () => {
                 })
             }}>
             </div>
-            <div className={`green-light bg-success ${
+            <div className={`light-bulb bg-success ${
                 color=="green" ? "shadows" : ""  
             }`} onClick={(event)=> {
                 console.log("green")
