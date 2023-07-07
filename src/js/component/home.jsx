@@ -10,8 +10,8 @@ const Home = () => {
   return (
 		<div className="container text-center align-content-center justify-content-center p-5">
 		  < Light/>
-		  <div class="stick"></div>
-      <div class="floor"></div>
+		  <div className="stick"></div>
+      <div className="floor"></div>
     </div>
   );
 };
